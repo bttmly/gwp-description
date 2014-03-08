@@ -7,7 +7,7 @@ Currently I envision GWP as an application written in HTML, CSS and JavaScript, 
 ### Problems With a Pure Web Application
 [Draft](https://draftin.com/) is an unbelievably impressive and feature-complete word processing app. But I think one impediment to adoption is the inability of web apps to access the client's actual file structure. The [FileSystem API](http://www.html5rocks.com/en/tutorials/file/filesystem/) only allows you to read/write from a sandboxed file system that is somewhere deep in the program files labyrinth. Chrome Apps can navigate the complete file system, but obviously require Chrome.
 
-People are use Google Docs because they trust that Google can reliably store and retrieve their document. Sure, you can download your document as a Word document, but then your workflow becomes forked. Then there's this [Boooooo!](https://raw.github.com/git-word-processor/git-word-processor.github.io/master/img/app-unreachable.png)
+People are use Google Docs because they trust that Google can reliably store and retrieve their document. Sure, you can download your document as a Word document, but then your workflow becomes forked. Then there's this ![Boooooo!](https://raw.github.com/git-word-processor/git-word-processor.github.io/master/img/app-unreachable.png)
 
 So a web app can't save to a user's disk like Word, and doesn't have the implicit guarantee a name like Google brings, you're in a tough spot. Indeed, using Git under the hood requires quite a bit of file system and system access. Hence, a web technology app wrapped up as a native application.
 
