@@ -1,7 +1,6 @@
 .main-header
-  padding-top: $font-size-base
   margin-bottom: 2 * $font-size-base
-  height: 8 * $font-size-base
+  min-height: 206px
   border-bottom: 2px solid #ddd
   display: flex
   flex-direction: column
@@ -13,22 +12,26 @@
   background: #fff
   color: #333
 
+.header__title 
+  margin: 0
+  padding: 2rem 0
+
 .temp-wrap
   transition: height 1s ease
 
 .typeout-title
   font-family: "Inconsolata", monospaced
-  font-size: $font-size-large
-  display: inline-block
+  font-size: .5em
+  display: inline
   min-width: 1px
   min-height: 1em
   padding-right: .25em
-  border-right: .1875em solid green
+  border-right: 4px solid green
   +animation( cursor 1s linear infinite )
 
 .typeout-title--formatted
   font-family: "PT Serif", Georgia, Serif
-  font-size: $font-size-h1
+  font-size: 1em
 
 // cursor animation
 +keyframes( "cursor" )
