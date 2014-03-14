@@ -1,4 +1,11 @@
-# Git Word Processor (GWP)
+---
+layout: base-layout
+bodyClass: index
+title: Git Word Processor
+---
+
+# Git Word Processor
+
 GWP is an app in **very** preliminary development. I wrote a little about it on [Medium](https://medium.com/p/434abffc751f). Obviously, it needs a better name.
 
 ## Development Concept

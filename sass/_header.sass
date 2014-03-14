@@ -1,2 +1,42 @@
 .main-header
-  background: #F0F2E9
+  padding-top: $font-size-base
+  margin-bottom: 2 * $font-size-base
+  height: 8 * $font-size-base
+  border-bottom: 2px solid #ddd
+  display: flex
+  flex-direction: column
+  background: #333
+  color: #fff
+  transition: all .35s ease-in-out
+
+.main-header--formatted
+  background: #fff
+  color: #333
+
+.temp-wrap
+  transition: height 1s ease
+
+.typeout-title
+  font-family: "Inconsolata", monospaced
+  font-size: $font-size-large
+  display: inline-block
+  min-width: 1px
+  min-height: 1em
+  padding-right: .25em
+  border-right: .1875em solid green
+  +animation( cursor 1s linear infinite )
+
+.typeout-title--formatted
+  font-family: "PT Serif", Georgia, Serif
+  font-size: $font-size-h1
+
+// cursor animation
++keyframes( "cursor" )
+  0%
+    border-color: green
+  1%
+    border-color: transparent
+  50%
+    border-color: transparent
+  51%
+    border-color: green

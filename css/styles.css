@@ -7594,7 +7594,139 @@ button.close {
     display: none !important;
   }
 }
+/* line 1, ../sass/_footer.sass */
+.main-footer {
+  background-color: #333333;
+  color: white;
+}
+
 /* line 1, ../sass/_header.sass */
 .main-header {
-  background: #f0f2e9;
+  padding-top: 14px;
+  margin-bottom: 28px;
+  height: 112px;
+  border-bottom: 2px solid #dddddd;
+  display: flex;
+  flex-direction: column;
+  background: #333333;
+  color: white;
+  transition: all 0.35s ease-in-out;
+}
+
+/* line 12, ../sass/_header.sass */
+.main-header--formatted {
+  background: white;
+  color: #333333;
+}
+
+/* line 16, ../sass/_header.sass */
+.temp-wrap {
+  transition: height 1s ease;
+}
+
+/* line 19, ../sass/_header.sass */
+.typeout-title {
+  font-family: "Inconsolata", monospaced;
+  font-size: 18px;
+  display: inline-block;
+  min-width: 1px;
+  min-height: 1em;
+  padding-right: 0.25em;
+  border-right: 0.1875em solid green;
+  -webkit-animation: cursor 1s linear infinite;
+  animation: cursor 1s linear infinite;
+}
+
+/* line 29, ../sass/_header.sass */
+.typeout-title--formatted {
+  font-family: "PT Serif", Georgia, Serif;
+  font-size: 36px;
+}
+
+@-webkit-keyframes cursor {
+  /* line 35, ../sass/_header.sass */
+  0% {
+    border-color: green;
+  }
+
+  /* line 37, ../sass/_header.sass */
+  1% {
+    border-color: transparent;
+  }
+
+  /* line 39, ../sass/_header.sass */
+  50% {
+    border-color: transparent;
+  }
+
+  /* line 41, ../sass/_header.sass */
+  51% {
+    border-color: green;
+  }
+}
+
+@-moz-keyframes cursor {
+  /* line 35, ../sass/_header.sass */
+  0% {
+    border-color: green;
+  }
+
+  /* line 37, ../sass/_header.sass */
+  1% {
+    border-color: transparent;
+  }
+
+  /* line 39, ../sass/_header.sass */
+  50% {
+    border-color: transparent;
+  }
+
+  /* line 41, ../sass/_header.sass */
+  51% {
+    border-color: green;
+  }
+}
+
+@-ms-keyframes cursor {
+  /* line 35, ../sass/_header.sass */
+  0% {
+    border-color: green;
+  }
+
+  /* line 37, ../sass/_header.sass */
+  1% {
+    border-color: transparent;
+  }
+
+  /* line 39, ../sass/_header.sass */
+  50% {
+    border-color: transparent;
+  }
+
+  /* line 41, ../sass/_header.sass */
+  51% {
+    border-color: green;
+  }
+}
+
+@keyframes cursor {
+  /* line 35, ../sass/_header.sass */
+  0% {
+    border-color: green;
+  }
+
+  /* line 37, ../sass/_header.sass */
+  1% {
+    border-color: transparent;
+  }
+
+  /* line 39, ../sass/_header.sass */
+  50% {
+    border-color: transparent;
+  }
+
+  /* line 41, ../sass/_header.sass */
+  51% {
+    border-color: green;
+  }
 }
