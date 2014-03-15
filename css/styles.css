@@ -7794,8 +7794,14 @@ body {
   color: #333333;
 }
 
-/* line 6, ../sass/_base.sass */
-main img {
+/* line 1, ../sass/_main.sass */
+main,
+[role="main"] {
+  margin: 2rem auto;
+}
+/* line 4, ../sass/_main.sass */
+main img,
+[role="main"] img {
   position: relative;
   max-width: 100%;
   display: block;
@@ -7805,6 +7811,8 @@ main img {
 
 /* line 1, ../sass/_footer.sass */
 .main-footer {
+  font-size: 0.75em;
+  padding: 2rem 0;
   background-color: #333333;
   color: white;
 }
